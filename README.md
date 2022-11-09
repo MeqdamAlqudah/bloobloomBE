@@ -1,24 +1,26 @@
-# README
+# MessageMeApp
+![screenshot](./Capture.png)
+![screenshot](./Capture1.png)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
 
-* Ruby version
+## Built With
+- ruby on rails
+## Video demo
+-[Video demo](https://www.loom.com/share/f54a646d8a994914a7e3bd44fec3f6de)
+## Deployed version
 
-* System dependencies
+  [link](https://mysite-s43s.onrender.com/login)
 
-* Configuration
+### Prerequisites
 
-* Database creation
+Chrome or any explorer
+## Get started 
+  if you just want to test the app you can use Johndo as a username and (12345654321) as a password
+## Authors
 
-* Database initialization
+👤 **Meqdam Al-qudah**
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- [GitHub](https://github.com/MeqdamAlqudah)
+- [Twitter](https://twitter.com/MeqdamQudah)
+- [LinkedIn](www.linkedin.com/in/meqdam-al-qudah-7514a21b5)

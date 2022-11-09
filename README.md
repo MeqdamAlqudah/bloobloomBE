@@ -7,7 +7,7 @@
 ## Built With
 - ruby on rails
 ## Video demo
--[Video demo](https://www.loom.com/share/f54a646d8a994914a7e3bd44fec3f6de)
+-[Video demo](https://www.loom.com/share/3b92e8a763db4d5fbacaaa162a8bd09d)
 ## Deployed version
 
   [link](https://intense-badlands-65200.herokuapp.com/)

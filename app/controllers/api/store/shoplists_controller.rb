@@ -37,8 +37,8 @@ class Api::Store::ShoplistsController < ApplicationController
 
   def glass_saved?(glass, frame, lense)
     if glass.save
-      frame.update(stock: frame.stock - 1)
-      lense.update(stock: lense.stock - 1)
+      decrease_stock(Frame,frame)
+      decrease_stock(Lense,lense)
       render json: { 'glass_info' => glass, 'lense' => glass.lense, 'frame' => glass.frame }
     else
       render json: glass.errors.full_messages
@@ -59,5 +59,10 @@ class Api::Store::ShoplistsController < ApplicationController
     itemclass.where(get_object_of_item(item)).filter do |n|
       n.price_currency == user.user_currency
     end[0]
+  end
+  def decrease_stock(itemclass,item)
+    itemclass.where(get_object_of_item(item)).each do |el|
+      el.update(stock:item.stock-1)
+    end
   end
 end

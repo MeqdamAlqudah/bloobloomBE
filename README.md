@@ -29,6 +29,9 @@ Delete frame DELETE (/api/admin/frames/:id) | Can't |
 Create Lense POST (/api/admin/lenses) | Can't |
 Edit a lense PATCH (/api/admin/lenses/:id) | Can't |
 Delete lense DELETE (/api/admin/lenses/:id) | Can't | 
+
+ ---------------------------------------- 
+
 Create A glass:
 
  `Post (/api/store/shoplists/create_glasse)`

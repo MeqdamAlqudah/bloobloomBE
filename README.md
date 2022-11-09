@@ -10,7 +10,7 @@
 -[Video demo](https://www.loom.com/share/f54a646d8a994914a7e3bd44fec3f6de)
 ## Deployed version
 
-  [link]()
+  [link](https://intense-badlands-65200.herokuapp.com/)
 
 ### Prerequisites
 

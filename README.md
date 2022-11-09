@@ -1,4 +1,4 @@
-# MessageMeApp
+# Bloobloom Glasses Store App
 ![screenshot](./Capture.png)
 ![screenshot](./Capture1.png)
 

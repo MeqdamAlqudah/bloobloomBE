@@ -53,6 +53,12 @@ Create A glass:
 
  `GET (api/store/users)`|
  | ----------------------------------------|
+ 
+ ## Test 
+ Using Rspec 
+ run `bundle exec rspec ./spec` to check they are run whith no errors
+ ## Database
+ I have setup two databases folder in the config file if you want to use the renamed one you can check this [link](https://medium.com/gitconnected/setting-up-postgres-with-ruby-on-rails-7-on-ubuntu-20-04-45ffd75e863d)
 ## Get started 
   if you just want to test the app you can use Johndo as a username and (12345654321) as a password
 ## Authors
